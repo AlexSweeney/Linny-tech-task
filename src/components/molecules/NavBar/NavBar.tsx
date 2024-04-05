@@ -1,5 +1,6 @@
 import { ReactElement } from "react";
 import colors from "../../../theme/colors";
+import './NavBar.css';
 
 interface NavBarProps {
   items: (string|ReactElement)[]
@@ -32,7 +33,7 @@ const NavBar = ({
   };
 
   return (
-    <nav>
+    <nav className="navBarContainer">
       <ul style={navStyle}>
         {
           items.map((item, i) => <li style={getLinkStyle(i, items.length)}>{item}</li>)

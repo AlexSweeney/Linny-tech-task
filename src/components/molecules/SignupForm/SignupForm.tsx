@@ -6,9 +6,12 @@ const SignupForm = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    width: '506px',
+    width: '100%',
+    padding: '10px',
+    maxWidth: '506px',
     height: '460px',
     background: colors.grey,
+    'box-sizing': 'border-box',
   };
 
   const wrapperStyle = {
@@ -25,7 +28,8 @@ const SignupForm = () => {
 
   const lineStyle = {
     border: `1px solid ${colors.black}`,
-    width: '360px',
+    maxWidth: '360px',
+    width: '100%',
     marginTop: '0',
     marginBottom: '24px'
   };

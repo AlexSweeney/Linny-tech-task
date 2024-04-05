@@ -10,7 +10,7 @@ const Header = () => {
     justifyContent: 'space-between',
     height: '92px',
     width: '100%',
-    background: colors.black,
+    background: colors.darkGrey,
     color: colors.grey,
     padding: '0 32px',
     'box-sizing': 'border-box',

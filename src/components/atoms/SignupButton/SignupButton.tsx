@@ -8,14 +8,16 @@ interface SignupButtonProps {
   color: 'black'|'green',
   active: boolean,
   icon: 'google'|'github'|'email',
+  style?: object
 }
 
 const SignupButton = ({
   text,
   color,
   active,
-  icon
-}: SignupButtonProps) => { 
+  icon,
+  style
+}: SignupButtonProps) => {
   const backgroundColors = {
     'black': colors.black,
     'green': colors.green,
@@ -42,7 +44,8 @@ const SignupButton = ({
     fontFamily: 'Inter',
     fontWeight: 'bold',
     fontSize: '16px',
-    borderRadius: '4px'
+    borderRadius: '4px',
+    ...style
   };
 
   const iconContainer = {

@@ -9,7 +9,7 @@ interface NavBarProps {
 const NavBar = ({
   items
 }: NavBarProps) => {
-  const navStyle = {
+  const listStyle = {
     display: 'flex',
     'flex-direction': 'row',
     'list-style-type': 'none',
@@ -34,7 +34,7 @@ const NavBar = ({
 
   return (
     <nav className="navBarContainer">
-      <ul style={navStyle}>
+      <ul style={listStyle}>
         {
           items.map((item, i) => <li style={getLinkStyle(i, items.length)}>{item}</li>)
         }

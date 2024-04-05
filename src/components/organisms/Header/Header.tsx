@@ -4,11 +4,12 @@ import NavDropdown from "../../molecules/NavDropdown/NavDropdown";
 import NavBar from "../../molecules/NavBar/NavBar";
 
 const Header = () => {
-  const navContainerStyle = {
+  const containerStyle = {
     display: 'flex',
-    alignItems: 'center',
+    'flex-direction': 'row',
+    justifyContent: 'center',
     position: 'fixed',
-    justifyContent: 'space-between',
+    'justify-content': 'center',
     height: '92px',
     width: '100%',
     background: colors.grey,
@@ -18,6 +19,13 @@ const Header = () => {
     'z-index': '100',
     top: '0',
     left: '0',
+  };
+
+  const wrapperStyle = {
+    width: '100%',
+    'max-width': '1200px',
+    display: 'flex',
+    'justify-content': 'space-between',
   };
 
   const logoStyle = {
@@ -41,11 +49,13 @@ const Header = () => {
   ];
 
   return (
-    <div style={navContainerStyle}>
-      <h1 style={logoStyle}>SuperNet</h1>
+    <div style={containerStyle}>
+      <div style={wrapperStyle}>
+        <h1 style={logoStyle}>SuperNet</h1>
 
-      <NavBar items={navBarItems}/>
-      <NavDropdown items={navDropdownItems}/>
+        <NavBar items={navBarItems}/>
+        <NavDropdown items={navDropdownItems}/>
+      </div>
     </div>
   );
 }

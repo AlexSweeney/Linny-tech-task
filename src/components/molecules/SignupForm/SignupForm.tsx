@@ -8,7 +8,7 @@ const SignupForm = () => {
     alignItems: 'center',
     width: '506px',
     height: '460px',
-    background: colors.darkGrey,
+    background: colors.grey,
   };
 
   const wrapperStyle = {

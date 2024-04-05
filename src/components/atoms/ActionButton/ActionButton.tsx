@@ -16,7 +16,7 @@ const ActionButton = ({
 
   const borders = {
     'green': 'none',
-    'black': `1px solid ${colors.grey}`
+    'black': `1px solid ${colors.lightGrey}`
   }
 
   const buttonStyle = {

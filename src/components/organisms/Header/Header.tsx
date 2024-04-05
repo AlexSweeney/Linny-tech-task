@@ -7,13 +7,17 @@ const Header = () => {
   const navContainerStyle = {
     display: 'flex',
     alignItems: 'center',
+    position: 'fixed',
     justifyContent: 'space-between',
     height: '92px',
     width: '100%',
-    background: colors.darkGrey,
-    color: colors.grey,
+    background: colors.grey,
+    color: colors.lightGrey,
     padding: '0 32px',
     'box-sizing': 'border-box',
+    'z-index': '100',
+    top: '0',
+    left: '0',
   };
 
   const logoStyle = {

@@ -1,10 +1,10 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import colors from '../../../theme/colors';
+import './NavDropdown.css';
 
 interface NavDropdown {
   items: string[]
@@ -31,7 +31,7 @@ const NavDropdown = ({
   };
 
   return (
-    <div>
+    <div className="navDropdownContainer">
       <IconButton
         id="basic-button"
         aria-controls={open ? 'basic-menu' : undefined}

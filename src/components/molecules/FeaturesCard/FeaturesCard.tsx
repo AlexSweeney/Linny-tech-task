@@ -15,10 +15,14 @@ const FeaturesCard = ({
     display: 'flex',
     position: 'relative' as 'relative',
     maxWidth: '630px',
+    minWidth: '320px',
+    width: '100%',
     minHeight: '325px',
     background: colors.grey,
     'box-shadow': '0 16px 16px rgba(0,0,0,0.1)',
     overflow: 'hidden',
+    margin: '20px auto',
+    marginBottom: '0',
   };
 
   const textContainerStyle = {

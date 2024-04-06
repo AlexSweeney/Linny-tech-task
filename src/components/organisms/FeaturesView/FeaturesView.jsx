@@ -5,7 +5,7 @@ import DDOS from "../../../images/DDOS.png";
 import colors from "../../../theme/colors";
 
 const FeaturesView = () => {
-  const screenTwoContainer = {
+  const container = {
     minHeight: 'calc(100vh - 92px)',
     width: '100%',
     background: colors.darkGrey,
@@ -15,7 +15,7 @@ const FeaturesView = () => {
     paddingTop: '48px'
   };
 
-  const featuresTextContainer = {
+  const textContainer = {
     maxWidth: '500px',
     'text-align': 'center',
     marginBottom: '16px',
@@ -42,8 +42,8 @@ const FeaturesView = () => {
   }
 
   return (
-    <div style={screenTwoContainer}>
-        <div style={featuresTextContainer}>
+    <div style={container}>
+        <div style={textContainer}>
           <h2>Features</h2>
           <p>From edge locations world wide, to unparalleled security and DDOS protection, we’ve got you covered.</p>
         </div>

@@ -1,17 +1,15 @@
 import './../../../theme/text.css';
-import colors from "../../../theme/colors";
 import SignupForm from "../../molecules/SignupForm/SignupForm";
 
 const HeroView = () => {
   const heroContainer = { 
     display: 'flex',
+    flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    minHeight: 'calc(100vh - 92px)',
-    height: '100%',
-    background: colors.darkGrey,
     'box-sizing': 'border-box',
     padding: '32px 10px',
+    width: '100%',
   };
 
   const heroWrapper = {

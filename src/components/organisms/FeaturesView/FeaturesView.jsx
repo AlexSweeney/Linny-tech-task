@@ -2,13 +2,10 @@ import FeaturesCard from "../../molecules/FeaturesCard/FeaturesCard";
 import EdgeNetwork from "../../../images/EdgeNetwork.png";
 import Security from "../../../images/Security.png";
 import DDOS from "../../../images/DDOS.png";
-import colors from "../../../theme/colors";
 
 const FeaturesView = () => {
   const container = {
-    minHeight: 'calc(100vh - 92px)',
     width: '100%',
-    background: colors.darkGrey,
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',

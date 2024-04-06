@@ -1,7 +1,7 @@
 import colors from "../../../theme/colors";
 import NavButton from "../../atoms/NavButton/NavButton";
-import NavDropdown from "../../molecules/NavDropdown/NavDropdown";
-import NavBar from "../../molecules/NavBar/NavBar";
+import NavDropdown from "../NavDropdown/NavDropdown";
+import NavBar from "../NavBar/NavBar";
 
 const Header = () => {
   const containerStyle = {

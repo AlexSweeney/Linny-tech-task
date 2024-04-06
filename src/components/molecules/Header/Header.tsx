@@ -16,7 +16,7 @@ const Header = () => {
     color: colors.lightGrey,
     padding: '0 32px',
     'box-sizing': 'border-box',
-    'z-index': '100',
+    'z-index': '99999',
     top: '0',
     left: '0',
   };

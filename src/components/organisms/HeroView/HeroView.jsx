@@ -10,6 +10,7 @@ const HeroView = () => {
     'box-sizing': 'border-box',
     padding: '32px 10px',
     width: '100%',
+    minHeight: 'calc(100vh - 92px)',
   };
 
   const heroWrapper = {

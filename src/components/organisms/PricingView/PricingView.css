@@ -1,0 +1,23 @@
+@media only screen and (max-width: 930px) {
+  .pricingCardContainer {
+    flex-direction: column;
+  };
+}
+
+@media only screen and (min-width: 931px) {
+  .pricingCardContainer {
+    flex-direction: row;
+  };
+}
+
+@media only screen and (max-width: 510px) {
+ .actionButtonContainer {
+  justify-content: center;
+ }
+}
+
+@media only screen and (min-width: 511px) {
+  .actionButtonContainer {
+   justify-content: space-between;
+  }
+ }

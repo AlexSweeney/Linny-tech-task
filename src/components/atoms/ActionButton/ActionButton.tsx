@@ -28,7 +28,8 @@ const ActionButton = ({
     fontFamily: 'Inter',
     fontWeight: 'bold',
     fontSize: '20px',
-    borderRadius: '4px'
+    borderRadius: '4px',
+    marginBottom: '16px'
   };
 
   return (

@@ -4,18 +4,26 @@ import colors from "../../../theme/colors";
 
 interface PricingCardProps {
   heading: ReactElement,
+  size: 'medium'|'large',
   children: ReactElement|ReactElement[]
 }
 
 const PricingCard = ({
   heading,
+  size,
   children
 }: PricingCardProps) => {
+  const heights = {
+    'medium': '530px',
+    'large': '565px'
+  }
+
   const containerStyle = {
-    height: '530px',
+    height: heights[size],
     width: '305px',
     display: 'flex',
     'flex-direction': 'column',
+    margin: '16px 0',
   };
 
   const topSectionStyle = {

@@ -8,6 +8,11 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 p {
   font-size: 20px;
 }
@@ -19,4 +24,25 @@ p {
 .highlight {
   color: #02B159;
   text-decoration: underline;
+}
+
+.redGradient {
+  background: -webkit-linear-gradient(0deg, #FF9B9B, #FB3434);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.greenGradient {
+  background: -webkit-linear-gradient(0deg, #ACFFAF, #43FE4A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.blueGradient {
+  background: -webkit-linear-gradient(0deg, #ACCCFC, #5F9FFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }

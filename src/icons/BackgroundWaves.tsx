@@ -1,0 +1,15 @@
+const BackgroundWaves = () => {
+  return (
+    <svg width="305" height="67" viewBox="0 0 305 67" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+      <rect x="0" y="0" width="305" height="65.4545" fill="url(#pattern0_6_79)"/>
+      <defs>
+        <pattern id="pattern0_6_79" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlinkHref="#image0_6_79" transform="matrix(0.0031348 0 0 0.0146073 0 -0.135417)"/>
+        </pattern>
+        <image id="image0_6_79" width="319" height="87" xlinkHref="data:image/png;base64,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"/>
+      </defs>
+    </svg>
+  );
+};
+
+export default BackgroundWaves;

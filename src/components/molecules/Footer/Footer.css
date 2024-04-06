@@ -1,0 +1,19 @@
+@media only screen and (max-width: 615px) {
+  .footerNavBarContainer {
+    height: 100%;
+  }
+
+  .footerNavBarContainer ul {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .footerNavBarContainer li {
+    margin-right: 0 !important;
+    margin-bottom: 10px !important;
+  }
+
+  .footerNavBarContainer li:last-child {
+    margin-bottom: 0;
+  }
+}

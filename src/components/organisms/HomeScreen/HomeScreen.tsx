@@ -4,15 +4,14 @@ import FeaturesView from "../FeaturesView/FeaturesView";
 import HeroView from "../HeroView/HeroView";
 import NetworkView from "../NetworkView/NetworkView";
 import colors from "../../../theme/colors";
-
+import PricingView from "../PricingView/PricingView";
+import Footer from "../../molecules/Footer/Footer";
 
 const HomeScreen = () => {
   const homeContainer = {
     minHeight: 'calc(100vh - 92px)',
     height: '100%',
     paddingTop: '92px',
-    paddingLeft: '10px',
-    paddingRight: '10px',
     background: colors.darkGrey,
     display: 'flex',
     'flex-direction': 'column',
@@ -26,6 +25,8 @@ const HomeScreen = () => {
       <HeroView/>
       <FeaturesView/>
       <NetworkView/> 
+      <PricingView/>
+      <Footer/>
     </div>
   )
 };

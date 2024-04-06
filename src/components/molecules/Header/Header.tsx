@@ -2,18 +2,18 @@ import colors from "../../../theme/colors";
 import NavButton from "../../atoms/NavButton/NavButton";
 import NavDropdown from "../NavDropdown/NavDropdown";
 import NavBar from "../NavBar/NavBar";
+import './Header.css';
 
 const Header = () => {
   const containerStyle = {
     display: 'flex',
     'flex-direction': 'row',
     justifyContent: 'center',
-    position: 'fixed',
+    position: 'fixed' as 'fixed',
     'justify-content': 'center',
     height: '92px',
     width: '100%',
     background: colors.grey,
-    color: colors.lightGrey,
     padding: '0 32px',
     'box-sizing': 'border-box',
     'z-index': '99999',
@@ -26,12 +26,6 @@ const Header = () => {
     'max-width': '1200px',
     display: 'flex',
     'justify-content': 'space-between',
-  };
-
-  const logoStyle = {
-    fontSize: '36px',
-    fontFamily: 'Inter',
-    fontWeight: 'normal',
   };
 
   const navBarItems = [
@@ -51,9 +45,11 @@ const Header = () => {
   return (
     <div style={containerStyle}>
       <div style={wrapperStyle}>
-        <h1 style={logoStyle}>SuperNet</h1>
+        <h1>SuperNet</h1>
 
-        <NavBar items={navBarItems}/>
+        <div className="navBarContainer">
+          <NavBar items={navBarItems}/>
+        </div>
         <NavDropdown items={navDropdownItems}/>
       </div>
     </div>

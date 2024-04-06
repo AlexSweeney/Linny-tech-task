@@ -1,6 +1,5 @@
 import { ReactElement } from "react";
 import colors from "../../../theme/colors";
-import './NavBar.css';
 
 interface NavBarProps {
   items: (string|ReactElement)[]
@@ -13,7 +12,8 @@ const NavBar = ({
     display: 'flex',
     'flex-direction': 'row',
     'list-style-type': 'none',
-    overflow: 'hidden'
+    overflow: 'hidden',
+    'flex-wrap': 'wrap',
   };
 
   const getLinkStyle = (i: number, length: number) => {
@@ -33,7 +33,7 @@ const NavBar = ({
   };
 
   return (
-    <nav className="navBarContainer">
+    <nav>
       <ul style={listStyle}>
         {
           items.map((item, i) => <li style={getLinkStyle(i, items.length)}>{item}</li>)

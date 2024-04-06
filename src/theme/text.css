@@ -7,3 +7,16 @@ h2 {
   font-size: 48px;
   font-weight: bold;
 }
+
+p {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.highlight {
+  color: #02B159;
+  text-decoration: 'underline';
+}

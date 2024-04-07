@@ -23,6 +23,10 @@ const NavDropdown = ({
     setAnchorEl(null);
   };
 
+  const handleOut = () => {
+    setAnchorEl(null);
+  };
+
   const menuIconStyle = {
     color: colors.lightPrimary,
     width: '50px',
@@ -46,6 +50,7 @@ const NavDropdown = ({
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
+        onMouseLeave={handleOut}
         MenuListProps={{
           'aria-labelledby': 'basic-button',
         }}

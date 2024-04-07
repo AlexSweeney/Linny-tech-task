@@ -1,3 +1,16 @@
+.link {
+  color: #FEFEFE;
+}
+
+.link:hover {
+  color: #02B159;
+  cursor: default;
+}
+
+.link:active {
+  color: #02552b;
+}
+
 .secondaryButton {
   background-color: #02B159;
 }

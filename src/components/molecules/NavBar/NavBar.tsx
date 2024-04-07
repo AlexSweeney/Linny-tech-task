@@ -1,5 +1,6 @@
 import { ReactElement } from "react";
 import colors from "../../../theme/colors";
+import './../../../theme/buttons.css';
 
 interface NavBarProps {
   items: (string|ReactElement)[]
@@ -25,7 +26,6 @@ const NavBar = ({
       whiteSpace: 'nowrap',
       display: 'flex',
       'align-items': 'center',
-      color: colors.lightPrimary,
       fontFamily: 'Inter',
       fontSize: '16px',
       fontWeight: 'regular',
@@ -36,7 +36,7 @@ const NavBar = ({
     <nav>
       <ul style={listStyle}>
         {
-          items.map((item, i) => <li style={getLinkStyle(i, items.length)}>{item}</li>)
+          items.map((item, i) => <li style={getLinkStyle(i, items.length)} className="link">{item}</li>)
         }
       </ul>
     </nav>

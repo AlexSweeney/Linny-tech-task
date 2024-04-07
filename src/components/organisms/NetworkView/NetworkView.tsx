@@ -13,6 +13,7 @@ const NetworkView = () => {
     'text-align': 'center',
     marginBottom: '48px',
     alignText: 'center',
+    padding: '0 10px',
   };
 
   const imageStyle = {

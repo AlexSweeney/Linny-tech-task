@@ -42,6 +42,9 @@ const PricingView = () => {
     background: colors.grey,
     paddingTop: '32px',
     paddingBottom: '12px',
+    paddingLeft: '10px',
+    paddingRight: '10px',
+    'box-sizing': 'border-box',
   };
 
   const actionButtonContainerStyle = {

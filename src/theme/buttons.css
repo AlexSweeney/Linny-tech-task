@@ -1,0 +1,11 @@
+.secondaryButton {
+  background-color: #02B159;
+}
+
+.secondaryButton:hover {
+  background-color: #01e975;
+}
+
+.secondaryButton:active {
+  background-color: #02552b;
+}

@@ -1,4 +1,5 @@
 import colors from '../../../theme/colors';
+import './../../../theme/buttons.css';
 
 interface NavButtonProps {
   text: String;
@@ -10,7 +11,6 @@ const NavButton = ({
   const buttonStyle = {
     width: '124px',
     height: '39px',
-    background: colors.secondary,
     border: 'none',
     color: colors.lightSecondary,
     fontFamily: 'Inter',
@@ -20,7 +20,7 @@ const NavButton = ({
   };
 
   return (
-    <button style={buttonStyle}>
+    <button style={buttonStyle} className='secondaryButton'>
       {text}
     </button>
   )

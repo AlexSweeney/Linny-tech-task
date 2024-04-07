@@ -2,7 +2,7 @@ import colors from '../../../theme/colors';
 
 interface ActionButtonProps {
   text: String;
-  color: 'green'|'black';
+  color: 'light'|'dark';
 }
 
 const ActionButton = ({
@@ -10,19 +10,23 @@ const ActionButton = ({
   color
 }: ActionButtonProps) => {
   const backgroundColors = {
-    'green': colors.secondary,
-    'black': colors.darkSecondary,
+    'light': colors.secondary,
+    'dark': colors.darkSecondary,
+  };
+
+  const classNames = {
+    'light': 'secondaryButton',
+    'dark': 'secondaryDarkButton'
   };
 
   const borders = {
-    'green': 'none',
-    'black': `1px solid ${colors.lightPrimary}`
-  }
+    'light': 'none',
+    'dark': `1px solid ${colors.lightPrimary}`
+  };
 
   const buttonStyle = {
     width: '250px',
     height: '72px',
-    background: backgroundColors[color],
     border: borders[color],
     color: colors.lightSecondary,
     fontFamily: 'Inter',
@@ -33,7 +37,7 @@ const ActionButton = ({
   };
 
   return (
-    <button style={buttonStyle}>
+    <button style={buttonStyle} className={classNames[color]}>
       {text}
     </button>
   )

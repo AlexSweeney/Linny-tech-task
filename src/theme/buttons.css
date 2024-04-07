@@ -9,3 +9,15 @@
 .secondaryButton:active {
   background-color: #02552b;
 }
+
+.secondaryDarkButton {
+  background-color: #242424;
+}
+
+.secondaryDarkButton:hover {
+  background-color: #484848;
+}
+
+.secondaryDarkButton:active {
+  background-color: #000000;
+}

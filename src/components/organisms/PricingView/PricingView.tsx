@@ -93,8 +93,8 @@ const PricingView = () => {
           <p>Set up your free account today or contact a sales consultant to learn more.</p>
         </div>
         <div style={actionButtonContainerStyle} className="actionButtonContainer">
-          <ActionButton text="Create Account" color="green"/>
-          <ActionButton text="Contact Sales" color="black"/>
+          <ActionButton text="Create Account" color="light"/>
+          <ActionButton text="Contact Sales" color="dark"/>
         </div>
       </div>
     </div>

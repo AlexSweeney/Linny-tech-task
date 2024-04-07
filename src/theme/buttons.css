@@ -2,6 +2,11 @@
   background-color: #02B159;
 }
 
+.secondaryButtonDisabled {
+  background-color: #02B159;
+  opacity: 0.6;
+}
+
 .secondaryButton:hover {
   background-color: #01e975;
 }
@@ -12,6 +17,11 @@
 
 .secondaryDarkButton {
   background-color: #242424;
+}
+
+.secondaryDarkButtonDisabled {
+  background-color: #242424;
+  opacity: 0.6;
 }
 
 .secondaryDarkButton:hover {

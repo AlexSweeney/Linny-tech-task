@@ -51,10 +51,10 @@ const SignupForm = () => {
   return (
     <div style={containerStyle}>
       <div style={wrapperStyle}>
-        <SignupButton text="Sign up with Google" color="green" active={false} icon="google" style={buttonStyle}/>
+        <SignupButton text="Sign up with Google" color="light" active={false} icon="google" style={buttonStyle}/>
         <hr style={lineStyle}/>
-        <SignupButton text="GitHub" color="black" active={true} icon="github" style={buttonStyle}/> 
-        <SignupButton text="Email" color="black" active={true} icon="email" style={buttonStyle}/> 
+        <SignupButton text="GitHub" color="dark" active={true} icon="github" style={buttonStyle}/> 
+        <SignupButton text="Email" color="dark" active={true} icon="email" style={buttonStyle}/> 
 
         <p style={textStyle}>By providing your email address or using a single sign-on provider to create an account, you agree to our <span style={textHighlightStyle}>Terms of Service</span> and that you have reviewed our <span style={textHighlightStyle}>Privacy Policy</span> and <span style={textHighlightStyle}>Cookie Policy.</span></p>
       </div>

@@ -2,10 +2,11 @@ import colors from '../../../theme/colors';
 import GoogleLogo from '../../../icons/GoogleLogo';
 import GitHubLogo from '../../../icons/GitHubLogo';
 import EmailIcon from '../../../icons/EmailIcon';
+import './../../../theme/buttons.css';
 
 interface SignupButtonProps {
   text: String;
-  color: 'black'|'green',
+  color: 'light'|'dark',
   active: boolean,
   icon: 'google'|'github'|'email',
   style?: object
@@ -18,9 +19,14 @@ const SignupButton = ({
   icon,
   style
 }: SignupButtonProps) => {
-  const backgroundColors = {
-    'black': colors.darkSecondary,
-    'green': colors.secondary,
+  const classNames = {
+    'light': 'secondaryButton',
+    'dark': 'secondaryDarkButton',
+  };
+
+  const disabledClassNames = {
+    'light': 'secondaryButtonDisabled',
+    'dark': 'secondaryDarkButtonDisabled',
   };
 
   const icons = {
@@ -38,8 +44,6 @@ const SignupButton = ({
     width: '100%',
     maxWidth: '360px',
     height: '56px',
-    opacity: active ? 1 : 0.6,
-    background: backgroundColors[color],
     border: 'none',
     color: colors.lightSecondary,
     fontFamily: 'Inter',
@@ -57,10 +61,10 @@ const SignupButton = ({
 
   const textContainer = {
     marginLeft: '8px'
-  }
+  };
 
   return (
-    <button style={buttonStyle}>
+    <button style={buttonStyle} className={active ? classNames[color] : disabledClassNames[color]}>
       <div style={iconContainer}>
         <Icon/>
       </div>

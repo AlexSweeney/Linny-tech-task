@@ -10,13 +10,13 @@ const ActionButton = ({
   color
 }: ActionButtonProps) => {
   const backgroundColors = {
-    'green': colors.green,
-    'black': colors.black,
+    'green': colors.secondary,
+    'black': colors.darkSecondary,
   };
 
   const borders = {
     'green': 'none',
-    'black': `1px solid ${colors.lightGrey}`
+    'black': `1px solid ${colors.lightPrimary}`
   }
 
   const buttonStyle = {
@@ -24,7 +24,7 @@ const ActionButton = ({
     height: '72px',
     background: backgroundColors[color],
     border: borders[color],
-    color: colors.white,
+    color: colors.lightSecondary,
     fontFamily: 'Inter',
     fontWeight: 'bold',
     fontSize: '20px',

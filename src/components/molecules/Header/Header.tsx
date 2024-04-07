@@ -13,7 +13,7 @@ const Header = () => {
     'justify-content': 'center',
     height: '92px',
     width: '100%',
-    background: colors.grey,
+    background: colors.primary,
     'box-sizing': 'border-box',
     'z-index': '99999',
     top: '0',

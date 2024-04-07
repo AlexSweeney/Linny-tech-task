@@ -10,7 +10,7 @@ const Footer = () => {
     padding: '0 32px',
     'flex-direction': 'row',
     justifyContent: 'center',
-    background: colors.black,
+    background: colors.darkSecondary,
     'box-sizing': 'border-box',
   };
 

@@ -25,7 +25,7 @@ const NavBar = ({
       whiteSpace: 'nowrap',
       display: 'flex',
       'align-items': 'center',
-      color: colors.lightGrey,
+      color: colors.lightPrimary,
       fontFamily: 'Inter',
       fontSize: '16px',
       fontWeight: 'regular',

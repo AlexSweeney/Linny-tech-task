@@ -25,7 +25,7 @@ const NavDropdown = ({
   };
 
   const menuIconStyle = {
-    color: colors.lightGrey,
+    color: colors.lightPrimary,
     width: '50px',
     height: '50px',
   };

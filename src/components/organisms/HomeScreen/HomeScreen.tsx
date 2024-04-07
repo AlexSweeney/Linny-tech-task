@@ -12,7 +12,7 @@ const HomeScreen = () => {
     minHeight: 'calc(100vh - 92px)',
     height: '100%',
     paddingTop: '92px',
-    background: colors.darkGrey,
+    background: colors.darkPrimary,
     display: 'flex',
     'flex-direction': 'column',
     justifyContent: 'center',

@@ -29,7 +29,7 @@ const PricingCard = ({
   const topSectionStyle = {
     height: '50%',
     width: '100%',
-    background: colors.grey,
+    background: colors.primary,
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -42,7 +42,7 @@ const PricingCard = ({
     alignItems: 'center',
     height: '50%',
     width: '100%',
-    background: colors.black,
+    background: colors.darkSecondary,
     'text-align': 'center',
   };
 

@@ -10,7 +10,7 @@ const SignupForm = () => {
     padding: '10px',
     maxWidth: '506px',
     height: '460px',
-    background: colors.grey,
+    background: colors.primary,
     'box-sizing': 'border-box',
   };
 
@@ -27,7 +27,7 @@ const SignupForm = () => {
   };
 
   const lineStyle = {
-    border: `1px solid ${colors.black}`,
+    border: `1px solid ${colors.darkSecondary}`,
     maxWidth: '360px',
     width: '100%',
     marginTop: '0',
@@ -35,7 +35,7 @@ const SignupForm = () => {
   };
 
   const textStyle = {
-    color: colors.white,
+    color: colors.lightSecondary,
     fontFamily: 'inter',
     fontWeight: 'regular',
     fontSize: '14px',
@@ -44,7 +44,7 @@ const SignupForm = () => {
   };
 
   const textHighlightStyle = {
-    color: colors.green,
+    color: colors.secondary,
     textDecoration: 'underline',
   };
 

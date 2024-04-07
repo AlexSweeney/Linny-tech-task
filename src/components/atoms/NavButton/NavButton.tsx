@@ -10,9 +10,9 @@ const NavButton = ({
   const buttonStyle = {
     width: '124px',
     height: '39px',
-    background: colors.green,
+    background: colors.secondary,
     border: 'none',
-    color: colors.white,
+    color: colors.lightSecondary,
     fontFamily: 'Inter',
     fontWeight: 'bold',
     fontSize: '16px',

@@ -19,8 +19,8 @@ const SignupButton = ({
   style
 }: SignupButtonProps) => {
   const backgroundColors = {
-    'black': colors.black,
-    'green': colors.green,
+    'black': colors.darkSecondary,
+    'green': colors.secondary,
   };
 
   const icons = {
@@ -41,7 +41,7 @@ const SignupButton = ({
     opacity: active ? 1 : 0.6,
     background: backgroundColors[color],
     border: 'none',
-    color: colors.white,
+    color: colors.lightSecondary,
     fontFamily: 'Inter',
     fontWeight: 'bold',
     fontSize: '16px',

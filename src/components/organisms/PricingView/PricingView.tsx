@@ -40,7 +40,7 @@ const PricingView = () => {
     alignItems: 'center',
     minHeight: '500px',
     width: '100%',
-    background: colors.grey,
+    background: colors.primary,
     paddingTop: '32px',
     paddingBottom: '12px',
     paddingLeft: '10px',

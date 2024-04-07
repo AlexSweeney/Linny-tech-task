@@ -18,7 +18,7 @@ const FeaturesCard = ({
     minWidth: '320px',
     width: '100%',
     minHeight: '325px',
-    background: colors.grey,
+    background: colors.primary,
     'box-shadow': '0 16px 16px rgba(0,0,0,0.1)',
     overflow: 'hidden',
     margin: '20px auto',
@@ -37,7 +37,7 @@ const FeaturesCard = ({
 
   const textWrapperStyle = {
     maxWidth: '315px',
-    color: colors.lightGrey,
+    color: colors.lightPrimary,
     fontFamily: 'Inter',
     padding: '24px',
     display: 'flex',

@@ -14,7 +14,6 @@ const Header = () => {
     height: '92px',
     width: '100%',
     background: colors.grey,
-    padding: '0 32px',
     'box-sizing': 'border-box',
     'z-index': '99999',
     top: '0',
@@ -43,7 +42,7 @@ const Header = () => {
   ];
 
   return (
-    <div style={containerStyle}>
+    <div style={containerStyle} className="headerContainer">
       <div style={wrapperStyle}>
         <h1>SuperNet</h1>
 

@@ -1,0 +1,22 @@
+.heroContainer {
+  align-items: center;
+}
+
+.heroTextWrapper {
+  justify-content: center;
+  height: 460px;
+}
+
+@media only screen and (max-width: 425px) {
+  .heroTextWrapper {
+    justify-content: flex-start;
+    height: inherit;
+    margin-bottom: 40px;
+  }  
+}
+
+@media only screen and (max-width: 768px) {
+  .heroContainer {
+    align-items: baseline;
+  }
+}

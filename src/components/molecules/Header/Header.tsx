@@ -49,7 +49,9 @@ const Header = () => {
         <div className="navBarContainer">
           <NavBar items={navBarItems}/>
         </div>
-        <NavDropdown items={navDropdownItems}/>
+        <div className="navDropdownContainer">
+          <NavDropdown items={navDropdownItems}/>
+        </div>
       </div>
     </div>
   );

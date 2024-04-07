@@ -8,15 +8,29 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 645px) {
   .navBarContainer {
+    display: none;
+  }
+
+  .navDropdownContainer {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 646px) {
+  .navBarContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .navDropdownContainer {
     display: none;
   }
 }
 
-@media only screen and (min-width: 769px) {
-  .navBarContainer {
-    display: flex;
-    align-items: center;
+@media only screen and (max-width: 720px) {
+  .headerContainer li {
+    font-size: 13px !important;
   }
 }

@@ -4,7 +4,6 @@ import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import colors from '../../../theme/colors';
-import './NavDropdown.css';
 
 interface NavDropdown {
   items: string[]
